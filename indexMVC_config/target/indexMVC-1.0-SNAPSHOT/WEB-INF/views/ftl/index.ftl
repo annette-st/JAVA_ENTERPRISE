@@ -35,8 +35,8 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="index">HOME</a></li>
-                <li><a href="cars-info">CARS INFO</a></li>
+                <li class="active"><a href="/feeds">HOME</a></li>
+                <li><a href="/cars-info">CARS INFO</a></li>
                 <li><a href="shop">YOUR CART</a></li>
                 <li><a href="signUp">SIGN UP</a></li>
             </ul>

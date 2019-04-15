@@ -3,6 +3,7 @@ package ru.itis.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import ru.itis.models.Feedback;
@@ -21,6 +22,12 @@ public class FeedController {
         modelMap.addAttribute("feeds", feeds);
         return "index";
     }
+
+    @GetMapping(value = "/cars-info")
+    public String getCarsInfoPage() {
+        return "cars-info";
+    }
+
 
 
 //    @Override
